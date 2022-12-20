@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(57, 186, 255);
+    background: linear-gradient(59deg, rgba(135,255,123,1) 0%, rgba(119,248,179,1) 9%, rgba(110,243,213,1) 16%, rgba(98,238,255,1) 33%, rgba(0,173,255,1) 52%, rgba(43,76,255,1) 100%);
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#bigcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.containter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.click{
+    height: 190px;
+    width: 300px;
+    border: solid #ff9900ff 5px;
+    border-radius: 50px;
+}
+
+.click:hover{
+    transform: scale(1.1);
+}
+
+#two{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+#back{
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: solid white 5px;
+    height: 70px;
+    width: 260px;
+    padding: 5px;
+    animation: color 1.5s linear infinite;
+    border-radius: 60px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.181)
+}
+#back:hover{
+    animation: none;
+    color: #ff9900ff;
+    border: solid #ff9900ff 5px;
+}
+
+@keyframes color{
+    0%{
+        color:rgb(43,76,255);
+        border: solid rgb(43,76,255) 5px;
+}
+    75%{
+        color: rgb(0,173,255);
+        border: solid rgb(0,173,255) 5px;
+    }
+    100%{
+        color:rgb(43,76,255);
+        border: solid rgb(43,76,255) 5px;
+    }
+}
+
+#flexbox{
+    background-image: url(FlexBox.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#form{
+    background-image: url(form.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#photo{
+    background-image: url(photo.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+
+#resume{
+    background-image: url(resume.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#game{
+    background-image: url(game.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#calculator{
+    background-image: url(calculator.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+
+#quiz{
+    background-image: url(quiz.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#animation{
+    background-image: url(animation.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#jqu{
+    background-image: url(jqu.PNG);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+
+#three{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 968px) {
+    body{
+        overflow: auto;
+    }
+    .containter{
+    flex-direction: column;
+    }
+}
